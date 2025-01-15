@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shorticon" type="x-icon" href="C:\Users\glshn\Pictures\Screenshots\Screenshot 2025-01-12 213648.png">
+    <title> portfolio</title>
+    <link rel="stylesheet" href="portfilo.css">
+    <style>
+        /* Add this CSS for fade-in animation */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                scale: 0.8;
+                transform: translateY(-100px)
+            }
+            to {
+                opacity: 1;
+                scale: 1;
+                transform: translateY(100px)
+            }
+        }
+
+        .fade-in {
+            animation: fadeIn   linear;
+            animation-timeline: view();
+            animation-range: entry 0% cover 20%;
+        }
+    </style>
+</head>
+
+<body style="background-color: black;">
+    <div class="bg-black w-full sm:mx-auto mx-auto " id="navbar">
+        <nav class="max-w-[1170px] mx-auto px-4">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <div class="text-2xl font-bold text-white">
+                    <h2 class="text-white">Web-Gen</h2>
+
+                </div>
+
+                <!-- Navigation Links -->
+                <div class="flex sm:space-x-8 space-x-3">
+                    <a href="#aboutsection" class="text-white hover:text-gray-600 text-[20px] font-medium">About</a>
+                    <a href="#worksection" class="text-white hover:text-gray-600 text-[20px] font-medium">Work</a>
+                    <a href="#contactsection" class="text-white hover:text-gray-600 text-[20px] font-medium">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- section 1 -->
+    <section class="w-full h-auto md:h-[400px] bg-[black] flex sm:pt-[50px] pt-[px] fade-in" id="aboutsection">
+        <div class="grid grid-cols-1 md:grid-cols-2 w-full h-full">
+            <!-- Left Column -->
+            <div class="bg-black pt-[30px] md:pt-[50px] px-4 md:pl-[50px] sm:order-1 order-2">
+                
+                <h2 class="text-[40px] md:text-[50px] text-white font-bold mb-4">Web Developer</h2>
+                <p class="text-white text-[18px] md:text-[20px] font-bold animate-pulse">Hi, I'm mohit,a passionate web developer
+                    dedicated to
+                    creating user-friendly and visually appealing websites that bring ideas to life on the digital
+                    canvas.</p>
+                <button
+                    class="bg-[#404040] text-white w-full md:w-[150px] px-6 py-2 rounded-lg mt-4 hover:bg-gray-800">Resume</button>
+            </div>
+
+            <!-- Right Column -->
+            <div
+                class="bg-black pt-[30px] md:pt-[0px]  flex justify-center items-center md:justify-center md:pl-[0px] sm:order-2 order-1">
+                <img src="C:\Users\glshn\Downloads\Black and Blue Characters Funny and Quirky T-Shirt.png"
+                    class="w-[300px] h-[300px] md:w-[350px] md:h-[350px]">
+            </div>
+        </div>
+    </section>
+    <!-- section 2 -->
+    <section class="w-full py-8 md:py-10 bg-black fade-in">
+        <div class="max-w-[1170px]  mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-8 md:mb-12 text-white">My Skills</h2>
+            <div class="sm:ml-[300px]">
+                <div class="sm:mr-[] mr-[28px] drop-shadow-2xl ">
+                    <div class="co drop-shadow-2xl ">
+
+
+                        <!-- html -->
+                        <div class="skill-bo">
+                            <span class="title">HTML</span>
+                            <div class="skill-ba">
+                                <span class="skill-per html">
+                                    <span class="tooltip">70%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- css -->
+                        <div class="skill-bo">
+                            <span class="title">Css</span>
+
+                            <div class="skill-ba">
+                                <span class="skill-per scss">
+                                    <span class="tooltip">80%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <!-- js -->
+                        <div class="skill-bo">
+                            <span class="title">js</span>
+
+                            <div class="skill-ba">
+                                <span class="skill-per js">
+                                    <span class="tooltip">60%</span>
+                                </span>
+                            </div>
+                        </div>
+
+
+                        <!-- tailwind css -->
+                        <div class="skill-bo">
+                            <span class="title">Tailwind css</span>
+
+                            <div class="skill-ba">
+                                <span class="skill-per tailwindcss">
+                                    <span class="tooltip">70%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- mysql -->
+                        <div class="skill-bo">
+                            <span class="title">mysql</span>
+
+                            <div class="skill-ba">
+                                <span class="skill-per mysql">
+                                    <span class="tooltip">70%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- ui/ux -->
+                        <div class="skill-bo">
+                            <span class="title">UI/UX</span>
+
+                            <div class="skill-ba">
+                                <span class="skill-per uiux">
+                                    <span class="tooltip">65%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- python -->
+                        <div class="skill-bo">
+                            <span class="title">python</span>
+
+                            <div class="skill-ba">
+                                <span class="skill-per python">
+                                    <span class="tooltip">50%</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- section 3 -->
+    <section class="w-full mt-[50px] md:mt-[150px] bg-black px-4 fade-in">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-16">
+            <!-- frontend  -->
+            <div class="text-center">
+                <div class="flex items-center justify-center w-16 md:w-20 h-16 md:h-20  rounded-tl-full mx-auto">
+
+                    <div class="boxes">
+                        <div class="box">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="box">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="box">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="box">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+
+                </div>
+                <h3 class="mt-16 text-base md:text-lg font-semibold text-white">frontend development </h3>
+                <p class="mt-2 text-gray-600 text-xs md:text-sm">
+                    Crafting intuitive, responsive, and visually engaging user interfaces with modern frontend technologies.
+                </p>
+            </div>
+
+            <!-- backend development  -->
+            <div class="text-center sm:mt-[] mt-[10px]">
+                <div class="flex items-center justify-center w-16 md:w-20 h-16 md:h-20  rounded-tl-full mx-auto">
+
+                    <div class="honeycomb pr-[45px]">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+
+
+                </div>
+                <h3 class="mt-16 text-base md:text-lg font-semibold text-white">backend  development</h3>
+
+                <p class="mt-2 text-gray-600 text-xs md:text-sm">
+                    Building robust, scalable, and efficient server-side solutions to power seamless digital experiences.
+                </p>
+            </div>
+
+            <!-- ui/ux -->
+            <div class="text-center">
+                <div class="flex items-center justify-center w-16 md:w-20 h-16 md:h-20  rounded-bl-full mx-auto">
+
+                    <div class="cube-loader">
+                        <div class="cube-top"></div>
+                        <div class="cube-wrapper">
+                            <span style="--i:0" class="cube-span"></span>
+                            <span style="--i:1" class="cube-span"></span>
+                            <span style="--i:2" class="cube-span"></span>
+                            <span style="--i:3" class="cube-span"></span>
+                        </div>
+                    </div>
+
+                </div>
+                <h3 class="mt-16 text-base md:text-lg font-semibold text-white">UI/UX</h3>
+                <p class="mt-2 text-gray-600 text-xs md:text-sm">
+                    Designing visually stunning, user-friendly interfaces and crafting intuitive, user-centered experiences that enhance digital interactions.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 4 -->
+    <div class="container mx-auto px-4 mt-[100px] md:mt-[150px] fade-in" id="worksection">
+        <h2 class="text-center text-3xl md:text-[40px] font-bold mb-8 text-white">Latest work</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+            <!-- Card 1 -->
+            <div class="flex flex-col items-center">
+                <img src="C:\Users\glshn\Pictures\Screenshots\Screenshot 2024-12-28 180813.png" alt="Project Image"
+                    class="rounded-md w-full">
+                <h3 class="mt-4 text-base md:text-lg font-medium text-white">Project title</h3>
+                <p class="text-gray-600 text-xs md:text-sm">UI, Art direction</p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="flex flex-col items-center">
+                <img src="C:\Users\glshn\Pictures\Screenshots\Screenshot 2024-12-28 180927.png" alt="Project Image"
+                    class="rounded-md w-full">
+                <h3 class="mt-4 text-base md:text-lg font-medium text-white">Project title</h3>
+                <p class="text-gray-600 text-xs md:text-sm">UI, Art direction</p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="flex flex-col items-center">
+                <img src="C:\Users\glshn\Pictures\Screenshots\Screenshot 2024-12-28 181020.png" alt="Project Image"
+                    class="rounded-md w-full">
+                <h3 class="mt-4 text-base md:text-lg font-medium text-white">Project title</h3>
+                <p class="text-gray-600 text-xs md:text-sm">UI, Art direction</p>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="flex flex-col items-center">
+                <img src="C:\Users\glshn\Pictures\Screenshots\Screenshot 2024-12-28 181053.png" alt="Project Image"
+                    class="rounded-md w-full">
+                <h3 class="mt-4 text-base md:text-lg font-medium text-white">Project title</h3>
+                <p class="text-gray-600 text-xs md:text-sm">UI, Art direction</p>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="flex flex-col items-center">
+                <img src="C:\Users\glshn\Pictures\Screenshots\Screenshot 2024-12-28 181202.png" alt="Project Image"
+                    class="rounded-md w-full">
+                <h3 class="mt-4 text-base md:text-lg font-medium text-white">Project title</h3>
+                <p class="text-gray-600 text-xs md:text-sm">UI, Art direction</p>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="flex flex-col items-center">
+                <img src="C:\Users\glshn\Pictures\Screenshots\Screenshot 2024-12-28 181247.png" alt="Project Image"
+                    class="rounded-md w-full">
+                <h3 class="mt-4 text-base md:text-lg font-medium text-white">Project title</h3>
+                <p class="text-gray-600 text-xs md:text-sm">UI, Art direction</p>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- section 5 -->
+    <section class="w-full mt-[100px] md:mt-[150px] bg-black fade-in" id="contactsection">
+        <div class="container mx-auto px-4">
+            <div class="bg-black p-4 md:p-8 rounded-lg shadow-md">
+                <h2 class="text-3xl md:text-[40px] font-semibold mb-4 text-white">Let's work together</h2>
+                <p class="text-white mb-6 text-sm md:text-base">
+                 If you have any project or idea that you want to work on, feel free to reach out
+                </p>
+
+                <div class="bg-black grid grid-cols-1 md:grid-cols-2 gap-6 sm:m-[] m-[50px] ">
+                    <!-- Social Icons -->
+                    <div class="cardd  items-center sm:ml-[] ml-[20px]">
+                        <div class="backgroundd">
+                        </div>
+                        <div class="logoo">
+                            <div class="text-center text-white font-mono ">social media </div>
+                        </div>
+                        <div class="boxx boxx1"><span class="iconn"><a href="""> <img src="C:\Users\glshn\Downloads\download (1).png" class=" svg" alt=""></a>
+                            </span></div>
+                        <div class="boxx boxx2"> <span class="iconn">
+                                <a href="https://www.linkedin.com/in/mohit-kumar-rawat-706765317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                                    class="svg"> <img src="C:\Users\glshn\Downloads\download.png" alt=""></a>
+
+                            </span></div>
+                        <div class="boxx boxx3"><span class="iconn"><a href="https://github.com/Mohit-developerr" class="svg"><img src="C:\Users\glshn\Downloads\download (2).png"
+                                        alt=""></a></span></div>
+                        <div class="boxx boxx4"></div>
+
+                    </div>
+                    <!-- Contact Form -->
+                    <form class="flex flex-col space-y-4" id="contactForm">
+                        <input type="text" placeholder="Name"
+                            class=" bg-[#404040] border border-gray-300 p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-400"
+                            required>
+                        <input type="email" placeholder="Email"
+                            class=" bg-[#404040] border border-gray-300 p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-400"
+                            required>
+                        <button type="submit" class="bg-[#404040] text-white py-3 rounded-md hover:bg-gray-800">
+                            Submit
+                        </button>
+                        <div id="formResponse" class="text-green-500 hidden">Thank you for your submission!</div>
+                    </form>
+                </div>
+
+            </div>
+    </section>
+</body>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="portfilo.js"></script>
+
+</html>
